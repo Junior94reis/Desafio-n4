@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#section-esq{
+    width: 50vw;
+    height: 100vh;
+    background: #F7FAFC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-esq img{
+    width: 23.52rem;
+}
+
+/* ----------section-dir ---------*/
+#section-dir{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    
+}
+#section-dir,
+form{
+    display: inline-flex;
+    justify-content: center;
+    
+    flex-direction: column;
+}
+#section-dir .container{
+    margin-top:150px;
+}
+#section-dir .container h6{
+    
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1A202C;
+    margin-bottom: 0.4rem;
+
+}
+#section-dir .container h3{
+    font-family: 'Merriweather';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #1A202C;
+    margin-bottom:1rem;
+
+}
+#section-dir .container .inputs{
+        
+    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+   
+}
+#section-dir .container .inputs label{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1A202C;
+    margin-bottom: 0.5rem;
+}
+#section-dir .container .inputs input{
+    border: 1px solid #E8E8E8;
+    border-radius: 5px;
+    height: 50px;
+    width: 350px;
+    margin-bottom: 0.7rem;
+}
+#section-dir .container form .check input{
+    
+    border-radius: 5px;
+background: #F7FAFC;
+border: 1px solid #E8E8E8;
+margin-right: 10px;
+}
+#section-dir .container .check label{
+    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #1A202C;
+
+}
+#section-dir .container .check {
+display: flex;
+justify-content: space-between;
+margin-bottom:30px;
+
+}
+#section-dir .container .check .container-check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#section-dir .container .check a{
+    
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+color: #2B6CB0;
+text-decoration: none;
+
+}
+#section-dir .container form button{
+    width: 347px;
+    height: 50px;
+    background: #04C45C;
+    border-radius: 5px;
+    margin-bottom:15px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    border:none;
+
+}
+#section-dir .container form #btn-link{
+    background: #1A202C;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    gap:10px;
+   
+
+}
+#section-dir .container form #btn-link a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+section p {
+    
+margin-top: 90px;
+width: 233px;
+height: 19px;
+
+
+font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+color: #1A202C;
+}
+
+@media (max-width:900px) {
+    #section-esq{
+        display: none;
+    }
+    #section-dir{
+        width: 100vw;
+        height: 100vh;
+       
+    }
+}
